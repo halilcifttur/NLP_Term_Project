@@ -10,12 +10,12 @@
          "context_set": ""
         },
         {"tag": "age",
-         "patterns": ["How old?", "How old are you?", "What is your age?", "How old are you?", "Age?"],
+         "patterns": ["How old?", "How old are you?", "What is your age?", "Age?"],
          "responses": ["I don't have an age", "You tell me, I'm a bot."],
          "context_set": ""
         },
         {"tag": "name",
-         "patterns": ["What is your name?", "What should I call you?", "What's your name?"],
+         "patterns": ["What is your name?", "What should I call you?"],
          "responses": ["You can call me whatever you want.", "I'm Chatbot!", "I'm a bot aka NLP Chatbot."],
          "context_set": ""
         },
@@ -27,16 +27,6 @@
         {"tag": "questions",
          "patterns": ["Are you a girl?", "What is your gender?"],
          "responses": ["My sound look like a girl but I don't have a gender.", "I'm not a girl or a boy", "I don't know right now.", "I don't want to tell you that", "I'm not a human"],
-         "context_set": ""
-        },
-        {"tag": "shop",
-         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
-         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
-         "context_set": ""
-        },
-        {"tag": "hours",
-         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
-         "responses": ["We are open 7am-4pm Monday-Friday!"],
          "context_set": ""
         },
 	    {"tag": "website",
