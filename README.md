@@ -7,7 +7,7 @@ Python-based NLP Audio Chatbot for term project on Windows
 Before starting you need to download a few python packages. Please note as of writing this these packages will ONLY WORK IN PYTHON 3.6. You can use the requirements.txt for installing the packages by using: 
   
 ```sh
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 Yet, you need to download some of the packages manually if you get an error while starting the chatbot.
